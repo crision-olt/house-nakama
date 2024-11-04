@@ -1,0 +1,11 @@
+{
+  "name": "@monorepo/admin-backend",
+
+  "scripts": {
+    "dev": "deno run --watch main.ts",
+    "test": "vitest"
+  },
+  "dependencies": {
+    "@monorepo/shared": "workspace:*"
+  }
+}
