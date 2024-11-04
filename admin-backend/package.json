@@ -3,7 +3,8 @@
 
   "scripts": {
     "dev": "deno run --watch main.ts",
-    "test": "vitest"
+    "test": "vitest run",
+    "test:watch": "vitest"
   },
   "dependencies": {
     "@monorepo/shared": "workspace:*"

@@ -27,5 +27,7 @@
       "@vitest/browser/matchers"
     ]
   },
-  "include": ["src"]
+  "include": [
+    "./**/**.*"
+  ]
 }
