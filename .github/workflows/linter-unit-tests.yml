@@ -26,11 +26,6 @@ jobs:
       with:
             version: 9
 
-    - name: install dependencies
     - run: pnpm i
-
-    - name: check linter
     - run: pnpm biome lint
-
-    - name: check unit tests
     - run: pnpm test
