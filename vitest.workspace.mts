@@ -7,8 +7,7 @@ export default [
 		// add "extends" to merge two configs together
 		extends: "./vite.config.js",
 		test: {
-			include: ["**/*.test.{ts,js}"],
-			name: "happy-dom",
+			include: ["**/*.test.{ts,tsx}"],
 			environment: "happy-dom",
 			globals: true,
 		},
