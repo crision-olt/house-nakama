@@ -8,8 +8,8 @@
     "build": "tsc -b && vite build",
     "lint": "eslint .",
     "preview": "vite preview",
-    "test": "vitest run --browser --browser.api.port 63315",
-    "test:watch": "vitest --browser --browser.api.port 63315"
+    "test": "vitest run",
+    "test:watch": "vitest"
   },
   "dependencies": {
     "@monorepo/shared": "workspace:*",

@@ -6,7 +6,12 @@ export default defineConfig({
 	test: {
 		environment: "happy-dom",
 		browser: {
-			name: "chrome"
+			name: "chromium",
+			enabled: true,
+			provider: 'playwright',
+			api: {
+				port: 63315
+			}
 		}
 	},
 	plugins: [
